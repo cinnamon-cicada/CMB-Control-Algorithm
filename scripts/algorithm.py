@@ -1,16 +1,19 @@
 #TODO: Confirm previous step output is 
 
-# The goal of this .py file is to define the algorithm(s) used to control for comorbidities in GWAS.
+# GOAL: define the algorithm(s) used to control for comorbidities in GWAS.
 
-# 
+# Convert phecodes to genetic variants for use in later steps.
 def phecodesToVariants(phecodes):
-    placeholder = 0
+    # TODO: Convert phecodes to ICD codes
+    # TODO: Use pandasGWAS to link ICD codes to genetic variants
+    
+
 
 # Method 1: Includes each genetic variant (GV) as a binary variable
 def methodOne():
     placeholder = 0
 
-# ML-based method
+# Method 2: ML-based method
 # NOTE: Use hyperparameter tuning
 def methodTwo():
     placeholder = 0
