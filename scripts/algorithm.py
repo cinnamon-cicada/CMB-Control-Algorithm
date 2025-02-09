@@ -6,8 +6,7 @@
 def phecodesToVariants(phecodes):
     # TODO: Convert phecodes to ICD codes
     # TODO: Use pandasGWAS to link ICD codes to genetic variants
-    
-
+    placeholder = 0
 
 # Method 1: Includes each genetic variant (GV) as a binary variable
 def methodOne():

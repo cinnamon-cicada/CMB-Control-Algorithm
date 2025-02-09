@@ -11,14 +11,13 @@ The overarching goal of this project is to test a novel method for controlling f
     1. Case/control populations
         1. Control for noise using patient matching
     2. Phecodes: PheWAS-generated most common comorbidities, represented as phecodes
-1. Find genetic variants (GVs) linked to each phecode from previous GWAS
-    1. PLINK: Find all linked genes for each comorbidity phenotype (CP)
-    2. GWAS (PandasGWAS): Library of established GWAS associations
+1. Process data for GWAS
+    1. 
 2. Run GWAS
     1. Covariates: sex, age range, ethnicity
-    2. Library: PLINK
+    2. Get comorbid GVs
     3. Algorithms
-        1. Method 1: Use all GVs as binary variates
+        1. Method 1: Use all GVs as binary covariates
             1. 1x with each Comorbidity GVs as a covariate
             2. 1x without
         2. Method 2: 
